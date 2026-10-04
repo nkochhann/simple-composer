@@ -4,14 +4,14 @@ export { Provider } from "./provider/Provider.js";
 
 export type {
     ComposedContainer
-} from "./container/container.js";
+} from "./container/types.js";
 
 export type {
     Factory,
     DependencyContainer
-} from "./provider/provider.js";
+} from "./provider/types.js";
 
 export type {
     RegisterObject,
     Registry
-} from "./composer/composer.js";
+} from "./composer/types.js";

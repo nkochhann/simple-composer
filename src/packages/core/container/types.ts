@@ -1,4 +1,4 @@
-import { ResolvedProvider } from "../provider/provider.js";
+import { ResolvedProvider } from "../provider/types.js";
 
 /**
  * Type of a composed container, with each registry entry replaced by its

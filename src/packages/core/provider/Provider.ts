@@ -1,4 +1,4 @@
-import { DependencyContainer, Factory } from "./provider.js";
+import { DependencyContainer, Factory } from "./types.js";
 
 /**
  * Stores a dependency factory and resolves its value on demand.

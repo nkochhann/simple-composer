@@ -1,4 +1,4 @@
-import { UncomposedProvider } from "../composer/composer.js";
+import { UncomposedProvider } from "../composer/types.js";
 import { Provider } from "../provider/Provider.js";
 
 /**

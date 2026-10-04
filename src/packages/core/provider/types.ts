@@ -1,4 +1,4 @@
-import { Registry } from "../composer/composer.js";
+import { Registry } from "../composer/types.js";
 
 /**
  * Function that creates a dependency value.

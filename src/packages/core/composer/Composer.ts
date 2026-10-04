@@ -1,8 +1,8 @@
-import { ComposedContainer } from "../container/container.js";
+import { ComposedContainer } from "../container/types.js";
 import { Container } from "../container/Container.js";
-import { Factory } from "../provider/provider.js";
+import { Factory } from "../provider/types.js";
 import { Provider } from "../provider/Provider.js";
-import { RegisterObject, UncomposedProvider } from "./composer.js";
+import { RegisterObject, UncomposedProvider } from "./types.js";
 
 /**
  * Builds a dependency registry step by step and converts it into a lazily

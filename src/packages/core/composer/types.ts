@@ -1,5 +1,5 @@
-import { Factory } from "../provider/provider.js"
-import { Provider } from "../provider/Provider.ts";
+import { Factory } from "../provider/types.js"
+import { Provider } from "../provider/Provider.js";
 
 /**
  * A registry of dependency factories or provider configurations, keyed by the
