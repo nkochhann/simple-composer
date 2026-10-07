@@ -1,8 +1,8 @@
 import { expectTypeOf } from "expect-type";
 import { Composer } from "../../src/packages/core/composer/Composer.js";
-import type { RegisterObject } from "../../src/packages/core/composer/composer.js";
-import type { ComposedContainer } from "../../src/packages/core/container/container.js";
-import type { ResolvedProvider } from "../../src/packages/core/provider/provider.js";
+import type { RegisterObject } from "../../src/packages/core/composer/types.js";
+import type { ComposedContainer } from "../../src/packages/core/container/types.js";
+import type { ResolvedProvider } from "../../src/packages/core/provider/types.js";
 
 // T1. ResolvedProvider
 expectTypeOf<ResolvedProvider<() => string>>().toEqualTypeOf<string>();
