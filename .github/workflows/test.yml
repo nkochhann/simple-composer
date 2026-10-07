@@ -1,0 +1,30 @@
+name: Test package
+
+on:
+    push:
+        branches: [ "main" ]
+    
+    pull_request:
+        branches: [ "main" ]
+
+jobs:
+    test-and-build:
+
+        runs-on: ubuntu-latest
+
+        steps:
+            - uses: actions/checkout@v4
+            - name: Setup node
+              uses: actions/setup-node@v4
+              with:
+                node-version: '24'
+                
+            - name: Run npm install
+              run: npm ci
+
+            - name: Test package
+              run: npm test
+
+            - name: Build package
+              run: npm run build
+                
